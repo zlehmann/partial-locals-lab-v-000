@@ -3,4 +3,5 @@
 Students:
 <% @student.each do |student| %>
   <%= render partial: 'students/student', locals: {student: student} %>
+  binding.pry
 <% end %>
